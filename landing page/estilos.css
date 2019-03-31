@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(img/header-banner.jpg) no-repeat fixed center;
+    background-size: cover;
+    font-size: 16px;
+}
+
+.container {
+    width: 90%;
+    max-width: 1280px;
+    height: 92.5vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Empieza nav */
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+nav .menuIzquierda {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .menuIzquierda h3 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+}
+
+nav .logo img {
+    width: 90px;
+    margin-top: 10px; 
+}
+
+nav .menuDerecha {
+    width: 270px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .menuDerecha h3 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: .9em;
+    font-weight: 400;
+    color: #fff;
+}
+
+nav .menuDerecha .buscador i {
+    color: #fff;
+}
+
+nav .menuDerecha .freeSignUp {
+    background: #69A644;
+    width: 125px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Termina nav */
+
+/* Empieza main */
+
+main {
+    font-family: 'Noto Sans', sans-serif;
+    color: #fff;
+}
+
+main h1 {
+    font-weight: 700;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+main h2 {
+    font-weight: 400;
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}
+
+main .signFree {
+    background: #69A644;
+    width: 230px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .signFree h2 {
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-bottom: 0px;
+}
+
+/* Termina main */
+
+/* Empieza footer */
+
+footer {
+    background: #69A644;
+    height: 60px;
+    width: 100%;
+    max-width: 1500px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+footer .partners {
+    width: 100%;
+    max-width: 1500px;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Termina footer */
