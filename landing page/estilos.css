@@ -10,23 +10,16 @@ body {
     font-size: 16px;
 }
 
-.container {
-    width: 90%;
-    max-width: 1280px;
-    height: 92.5vh;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 /* Empieza nav */
 
-nav {
+.containerNav {
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav .menuIzquierda {
@@ -35,7 +28,6 @@ nav .menuIzquierda {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-    align-items: center;
 }
 
 nav .menuIzquierda h3 {
@@ -87,6 +79,16 @@ nav .menuDerecha .freeSignUp {
 main {
     font-family: 'Noto Sans', sans-serif;
     color: #fff;
+}
+
+main .containerMain {
+    width: 90%;
+    max-width: 1280px;
+    height: 86vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 main h1 {
